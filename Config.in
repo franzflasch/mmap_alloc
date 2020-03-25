@@ -1,0 +1,3 @@
+config BR2_PACKAGE_MMAP_ALLOC_KERNEL_DRIVER
+	bool "mmap_alloc_kernel_driver"
+	depends on BR2_LINUX_KERNEL
